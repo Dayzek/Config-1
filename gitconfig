@@ -1,0 +1,33 @@
+[core]
+	excludesfile = ~/.gitignore
+	editor = vim
+[color]
+	ui = auto
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+[commit]
+	verbose = true
+[pull]
+	rebase = true
+[branch]
+	autosetuprebase = always
+[push]
+	default = simple
+[rebase]
+	autoSquash = true
+	autoStash = true
+[sendemail]
+	smtpencryption = tls
+	smtpserver = smtp.office365.com
+	smtpserverport = 587
+	smtpuser = firstname.lastname@epita.fr
+[user]
+	name = valentin.giaufer
+	email = valentin.giaufer@epita.fr
+[alias]
+	st = status
+	ci = commit
+	pu = push origin master --follow-tags
+	lg = log -5
