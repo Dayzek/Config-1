@@ -62,3 +62,13 @@ set wildmenu
 set wildmode=list:longest
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
+
+" write in terminal !"
+
+" git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+" mkdir -p ~/.vim/colors
+" cd ~/.vim/colors
+" curl -O https://raw.githubusercontent.com/nanotech/jellybeans.vim/master/colors/jellybeans.vim
+" git clone https://github.com/itchyny/lightline.vim ~/.vim/pack/plugins/start/lightline
+
+" write in terminal !"
